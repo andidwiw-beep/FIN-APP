@@ -89,4 +89,5 @@ if uploaded_file:
             ],
             model="llama-3.1-8b-instant",
         )
-        st.write(chat_response.choices[0].message.content
+        st.write(chat_response.choices[0].message.content)
+
